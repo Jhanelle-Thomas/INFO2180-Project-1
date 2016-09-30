@@ -38,6 +38,9 @@
 
 #statement {
 	font-style: italic;
+	width: 400px;
+	height: 115px;
+	color: #404040;
 }
 
 .title {
@@ -64,7 +67,7 @@
 	text-align: right;
 	float: right;
 	margin-top: 5px;
-	color: grey;
+	color: #737373;
 }
 
 .no_margin {
@@ -73,7 +76,8 @@
 }
 
 span { 
-	text-align: right;
+	color: #737373;
+	border-bottom: 1px solid #737373;
 }
 
 ul {
