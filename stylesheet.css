@@ -30,6 +30,19 @@
     transform: rotate(-5deg);
 }
 
+#photo img {
+	position:absolute;
+	top:0;
+	left:0;
+	height:255px;
+	width:225px;
+	-webkit-transition: opacity 1.1s ease;
+	transition: opacity 1.1s ease;
+}
+#photo1:hover {
+	opacity:0;
+}
+
 #data {
 	width:600px;
 	margin: auto;
@@ -46,9 +59,12 @@
 #email { 
 	color: #737373;
 	border-bottom: 1px solid #737373;
-	
 }
 
+#email:hover {
+	color: blue;
+	border-bottom: 1px solid blue;
+}
 .title {
 	float: left;
 	position: absolute;
